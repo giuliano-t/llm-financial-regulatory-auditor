@@ -1,0 +1,15 @@
+openai
+pandas
+numpy==1.26.4
+matplotlib
+tqdm
+gdown
+PyPDF2
+scipy
+gensim
+torch==2.2.2+cpu
+torchvision==0.17.2+cpu
+--index-url https://download.pytorch.org/whl/cpu
+transformers==4.40.2
+accelerate==0.27.2
+bertopic==0.16.4
