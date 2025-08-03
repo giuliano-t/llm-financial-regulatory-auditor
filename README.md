@@ -1,8 +1,12 @@
 # LLM Financial Regulatory Auditor
 
-This project implements an evaluation framework for **Agent 3**, a language model agent designed to analyze quarterly financial transcripts using a regulatory lens. Agent 3 was originally developed by a collaborator to extract structured insights — including sentiment, risk indicators, and supervisory relevance — from earnings call threads such as analyst Q&A and executive statements.
+This project implements an evaluation framework for **Agent 3**, a CLAUDE-based LLM agent developed as part of a collaborative research project involving the Bank of England.
 
-**My contribution** focuses on designing a meta-evaluation pipeline that systematically reviews the outputs of Agent 3. The goal is to assess the relevance, justification, and overall usefulness of each extracted metric using a second LLM (e.g., OpenAI GPT-4o) acting as a regulatory "virtual supervisor".
+The objective of the broader project was to develop a pipeline capable of extracting risk-relevant information from highly unstructured data — specifically, quarterly earnings call transcripts.
+
+Agent 3 was originally developed by a colleague to extract structured insights, such as sentiment, risk indicators, and supervisory relevance, from earnings call transcripts, with particular focus on Q&A exchanges between analysts and executives.
+
+**My contribution** focuses on designing a meta-evaluation pipeline that systematically reviews the outputs of **Agent 3**. The goal is to assess the relevance, justification, and overall usefulness of each extracted metric using a second LLM (e.g. OpenAI GPT-4o) acting as a regulatory "virtual supervisor".
 
 ---
 
