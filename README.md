@@ -10,15 +10,15 @@ Agent 3 was originally developed by a colleague to extract structured insights, 
 
 ---
 
-![Agent3 Evaluation Pipeline](https://github.com/giuliano-t/llm-financial-regulatory-auditor/blob/main/Pipelines_Diagram.jpg?raw=true)
-
----
-
 ##  Project Overview
 
 - **Input:** Earnings call transcripts in thread format (Q&A or executive monologues)  
 - **Agent 3 Output:** Structured JSONs with 50+ regulatory, conversational, and linguistic metrics  
 - **Meta-Evaluation:** A second LLM reviews each output metric and recommends whether to Keep, Revise, or Remove it
+
+---
+
+![Agent3 Evaluation Pipeline](https://github.com/giuliano-t/llm-financial-regulatory-auditor/blob/main/Pipelines_Diagram.jpg?raw=true)
 
 ---
 
