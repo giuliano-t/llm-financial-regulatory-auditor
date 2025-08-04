@@ -10,6 +10,10 @@ Agent 3 was originally developed by a colleague to extract structured insights, 
 
 ---
 
+![Agent3 Evaluation Pipeline](https://github.com/giuliano-t/llm-financial-regulatory-auditor/blob/main/Pipelines_Diagram.jpg?raw=true)
+
+---
+
 ##  Project Overview
 
 - **Input:** Earnings call transcripts in thread format (Q&A or executive monologues)  
