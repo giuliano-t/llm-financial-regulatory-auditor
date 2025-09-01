@@ -1,5 +1,13 @@
 # LLM Financial Regulatory Auditor
 
+---
+
+### Business Problem
+
+Financial regulators like the Bank of England face the immense challenge of analyzing thousands of pages of unstructured earnings call transcripts to identify potential risks. This manual process is time-consuming and prone to inconsistency. This project tackles that challenge by building an automated pipeline to systematically evaluate the output of an AI agent designed to extract insights from this complex financial data.
+
+---
+
 This project implements an evaluation framework for **Agent 3**, a CLAUDE-based LLM agent developed as part of a collaborative research project involving the Bank of England.
 
 The objective of the broader project was to develop a pipeline capable of extracting risk-relevant information from highly unstructured data — specifically, quarterly earnings call transcripts.
